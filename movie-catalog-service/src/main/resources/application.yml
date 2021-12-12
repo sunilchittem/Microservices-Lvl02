@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: movie-catalog-service
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+        defaultZone: http://localhost:8085/eureka/

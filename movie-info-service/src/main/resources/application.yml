@@ -1,0 +1,13 @@
+api:
+  key: 1e6150dfeaf0e7222fa65621081aa0b3
+server:
+  port: 8081
+spring:
+  application:
+    name: movie-info-service
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+        defaultZone: http://localhost:8085/eureka/
